@@ -1,0 +1,25 @@
+[project]
+name = "goit-pythonweb-hw-06"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "ostafiichuko",email = "issimo333@gmail.com"}
+]
+
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "alembic (>=1.15.1,<2.0.0)",
+    "sqlalchemy (>=2.0.38,<3.0.0)",
+    "sqlalchemy-orm (>=1.2.10,<2.0.0)",
+    "psycopg2-binary (>=2.9.10,<3.0.0)",
+    "psycopg2 (>=2.9.10,<3.0.0)",
+    "faker (>=37.0.0,<38.0.0)",
+    "python-dotenv (>=1.0.1,<2.0.0)",
+    "colorama (>=0.4.6,<0.5.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
